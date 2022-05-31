@@ -1,0 +1,3 @@
+include ':cryptomod'
+include ':app'
+rootProject.name = "CryptoSzD"

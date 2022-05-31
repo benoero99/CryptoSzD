@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "879511913608",
+    "project_id": "cryptoszd",
+    "storage_bucket": "cryptoszd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:879511913608:android:af56324027cb259516cb3d",
+        "android_client_info": {
+          "package_name": "com.example.cryptoszd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "879511913608-bip4g8vlcccll0epuapvurape0rl3qjl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cryptoszd",
+            "certificate_hash": "973fb9979986cf7c56e762cf55fd4fe6f716dfc9"
+          }
+        },
+        {
+          "client_id": "879511913608-a0b77f272mnlftkfhfhjui8gk6skjet5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEgdVv22FyQmcy9jEPa_YVf9qdYo2yPIU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "879511913608-a0b77f272mnlftkfhfhjui8gk6skjet5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

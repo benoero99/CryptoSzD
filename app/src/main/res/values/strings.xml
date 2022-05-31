@@ -1,0 +1,1076 @@
+<resources>
+    <string name="app_name">CryptoSzD</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="no_account_yet">Don\'t have an account yet?</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="login_with_google">Login with Google</string>
+    <string name="bad_email_format">The email address is badly formatted.</string>
+    <string name="email_already_exists">The email address is already in use by another account.</string>
+    <string name="invalid_password">The password is invalid, it must be at least 6 characters.</string>
+    <string name="empty_email_error">Email cannot be empty!</string>
+    <string name="empty_password_error">Password cannot be empty!</string>
+    <string name="successful_registration">Successful registration!</string>
+    <string name="create_a_new_account">Create a new account </string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="confirm_email">Confirm email</string>
+    <string name="wrong_password">The password you entered is incorrect.</string>
+    <string name="account_disabled">The user account has been disabled by an administrator.</string>
+    <string name="user_doesnt_exist_or_deleted">There is no user with this email or the user may have been deleted.</string>
+    <string name="network_error">A network error has occurred. Please check your connection.</string>
+    <string name="empty_field">Field cannot be empty!</string>
+    <string name="welcome_to_cryptoszd">Welcome %1$s to CryptoSzD</string>
+    <string name="create_certificate">Create certificate</string>
+    <string name="create">Create</string>
+    <string name="country_code">Country code: </string>
+    <string name="location">Location: </string>
+    <string name="certificate_email">Email: </string>
+    <string name="cn">CN (Common Name): </string>
+    <string name="select_country">Select country and country code</string>
+    <string name="please_select_a_country">Please select a country!</string>
+    <string name="special_characters_warning">Special characters may cause trouble (ő, ű). Please try to avoid them.</string>
+    <string name="locality">Locality:</string>
+    <string name="country">Country:</string>
+    <string name="common_name">Common Name:</string>
+    <string name="password_vault_info">Enter a strong password. This password will be needed to open your vault. If you lose your password, your vault cannot be opened anymore.</string>
+    <string name="enter_master_password">Enter master password to open your vault.</string>
+    <string name="website_">Website: %1$s</string>
+    <string name="website">Website</string>
+    <string name="save_changes">Save changes</string>
+    <string name="min_char_6">At least 6 characters</string>
+    <string name="save_directory">Save directory</string>
+    <string name="chosen_directory">Chosen directory: %1$s</string>
+    <string name="permission_denied">Without write permission File encryption cannot work</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="file">"File: %1$s"</string>
+    <string name="password_note">Give a password for encryption. Please note that this password will be needed for decryption.</string>
+    <string name="invalid_certificate">This certificate is invalid!!</string>
+    <string name="expired_certificate">This certificate expired!</string>
+    <string name="valid_certificate">This certificate is valid!</string>
+    <string name="renew_certificate">Renew certificate</string>
+    <string name="something_went_wrong">Something went wrong! Check your connection.</string>
+    <string name="too_many_failed_login_attempt">Too many failed login attempt, try again later</string>
+    <string name="emails_dont_match">Emails don\'t match.</string>
+    <string name="passwords_dont_match">Passwords don\'t match.</string>
+    <string name="encrypt">Encrypt</string>
+    <string name="decrypt">Decrypt</string>
+    <string name="password_min_6">Password should be at least 6 characters</string>
+    <string name="no_file_was_chosen">No file was chosen</string>
+    <string name="something_went_wrong_only">Something went wrong</string>
+    <string name="choose_a_file">Choose a file</string>
+    <string name="success">Success</string>
+    <string name="certificate_copied">Certificate copied to clipboard</string>
+    <string name="select_country_code">Select country code</string>
+    <string name="certificate_created">Certificate successfully created!</string>
+    <string name="no_selected_certificate">There is no selected certificate</string>
+    <string name="nothing_to_decrypt">There is nothing to decrypt</string>
+    <string name="cancel">Cancel</string>
+    <string name="password_min_10">Master password should be at least 10 characters</string>
+    <string name="open">Open</string>
+    <string name="add">Add</string>
+    <string name="add_new_password">Add new password</string>
+    <string name="save">Save</string>
+    <string name="exit">Exit</string>
+    <string name="check_or_change_password">Check or change password</string>
+    <string name="chenges_saved">Changes saved</string>
+    <string name="master_password">Master Password</string>
+    <string name="confirm_master_password">Confirm Master Password</string>
+    <string name="press_long_the_certificate_to_copy">Press long the certificate to copy</string>
+    <string name="subject">Subject</string>
+    <string name="common_name_double">Common name:</string>
+    <string name="country_double">Country:</string>
+    <string name="issuer">Issuer</string>
+    <string name="organization_double">Organization:</string>
+    <string name="other_information">Other information</string>
+    <string name="public_key_double">Public key:</string>
+    <string name="signature_algorithm_double">Signature algorithm:</string>
+    <string name="signature_double">Signature:</string>
+    <string name="valid_not_before_double">Valid not before:</string>
+    <string name="valid_not_after_double">Valid not after:</string>
+    <string name="serial_number_double">Serial number:</string>
+    <string name="version_double">Version:</string>
+    <string name="type_double">Type:</string>
+    <string name="file_encryption">File encryption</string>
+    <string name="encryption_mode">Encryption mode</string>
+    <string name="directory">Directory</string>
+    <string name="search">Search</string>
+    <string name="certificate">Certificate</string>
+    <string name="all_certificates">All certificates</string>
+    <string name="password_vault">Password vault</string>
+    <string name="encrypt_or_decrypt_file">Encrypt or Decrypt File</string>
+    <string name="message_encryption">Message Encryption</string>
+    <string name="logout">Logout</string>
+    <string name="conversation_partner_s_certificate">Conversation partner\'s certificate:</string>
+    <string name="paste_certificate">Paste certificate</string>
+    <string name="search_certificate">Search certificate</string>
+    <string name="unencrypted_text">Unencrypted text</string>
+    <string name="encrypted_text">Encrypted text</string>
+    <string name="message_decryption_failed">Message decryption failed</string>
+    <string name="identical_error">This message was not sent by the owner of the selected certificate!</string>
+    <string name="wrong_encrypted_text">Wrong encrypted text</string>
+
+    <string-array name="country_data">
+        <item>
+            <country>Afghanistan</country>
+            <iso2>AF</iso2>
+        </item>
+        <item>
+            <country>Albania</country>
+            <iso2>AL</iso2>
+        </item>
+        <item>
+            <country>Algeria</country>
+            <iso2>DZ</iso2>
+        </item>
+        <item>
+            <country>American Samoa</country>
+            <iso2>AS</iso2>
+        </item>
+        <item>
+            <country>Andorra</country>
+            <iso2>AD</iso2>
+        </item>
+        <item>
+            <country>Angola</country>
+            <iso2>AO</iso2>
+        </item>
+        <item>
+            <country>Anguilla</country>
+            <iso2>AI</iso2>
+        </item>
+        <item>
+            <country>Antarctica</country>
+            <iso2>AQ</iso2>
+        </item>
+        <item>
+            <country>Antigua and Barbuda</country>
+            <iso2>AG</iso2>
+        </item>
+        <item>
+            <country>Argentina</country>
+            <iso2>AR</iso2>
+        </item>
+        <item>
+            <country>Armenia</country>
+            <iso2>AM</iso2>
+        </item>
+        <item>
+            <country>Aruba</country>
+            <iso2>AW</iso2>
+        </item>
+        <item>
+            <country>Australia</country>
+            <iso2>AU</iso2>
+        </item>
+        <item>
+            <country>Austria</country>
+            <iso2>AT</iso2>
+        </item>
+        <item>
+            <country>Azerbaijan</country>
+            <iso2>AZ</iso2>
+        </item>
+        <item>
+            <country>Bahamas</country>
+            <iso2>BS</iso2>
+        </item>
+        <item>
+            <country>Bahrain</country>
+            <iso2>BH</iso2>
+        </item>
+        <item>
+            <country>Bangladesh</country>
+            <iso2>BD</iso2>
+        </item>
+        <item>
+            <country>Barbados</country>
+            <iso2>BB</iso2>
+        </item>
+        <item>
+            <country>Belarus</country>
+            <iso2>BY</iso2>
+        </item>
+        <item>
+            <country>Belgium</country>
+            <iso2>BE</iso2>
+        </item>
+        <item>
+            <country>Belize</country>
+            <iso2>BZ</iso2>
+        </item>
+        <item>
+            <country>Benin</country>
+            <iso2>BJ</iso2>
+        </item>
+        <item>
+            <country>Bermuda</country>
+            <iso2>BM</iso2>
+        </item>
+        <item>
+            <country>Bhutan</country>
+            <iso2>BT</iso2>
+        </item>
+        <item>
+            <country>Bolivia</country>
+            <iso2>BO</iso2>
+        </item>
+        <item>
+            <country>Bosnia and Herzegovina</country>
+            <iso2>BA</iso2>
+        </item>
+        <item>
+            <country>Botswana</country>
+            <iso2>BW</iso2>
+        </item>
+        <item>
+            <country>Brazil</country>
+            <iso2>BR</iso2>
+        </item>
+        <item>
+            <country>British Indian Ocean Territory</country>
+            <iso2>IO</iso2>
+        </item>
+        <item>
+            <country>British Virgin Islands</country>
+            <iso2>VG</iso2>
+        </item>
+        <item>
+            <country>Brunei</country>
+            <iso2>BN</iso2>
+        </item>
+        <item>
+            <country>Bulgaria</country>
+            <iso2>BG</iso2>
+        </item>
+        <item>
+            <country>Burkina Faso</country>
+            <iso2>BF</iso2>
+        </item>
+        <item>
+            <country>Burundi</country>
+            <iso2>BI</iso2>
+        </item>
+        <item>
+            <country>Cambodia</country>
+            <iso2>KH</iso2>
+        </item>
+        <item>
+            <country>Cameroon</country>
+            <iso2>CM</iso2>
+        </item>
+        <item>
+            <country>Canada</country>
+            <iso2>CA</iso2>
+        </item>
+        <item>
+            <country>Cape Verde</country>
+            <iso2>CV</iso2>
+        </item>
+        <item>
+            <country>Cayman Islands</country>
+            <iso2>KY</iso2>
+        </item>
+        <item>
+            <country>Central African Republic</country>
+            <iso2>CF</iso2>
+        </item>
+        <item>
+            <country>Chad</country>
+            <iso2>TD</iso2>
+        </item>
+        <item>
+            <country>Chile</country>
+            <iso2>CL</iso2>
+        </item>
+        <item>
+            <country>China</country>
+            <iso2>CN</iso2>
+        </item>
+        <item>
+            <country>Christmas Island</country>
+            <iso2>CX</iso2>
+        </item>
+        <item>
+            <country>Cocos Islands</country>
+            <iso2>CC</iso2>
+        </item>
+        <item>
+            <country>Colombia</country>
+            <iso2>CO</iso2>
+        </item>
+        <item>
+            <country>Comoros</country>
+            <iso2>KM</iso2>
+        </item>
+        <item>
+            <country>Cook Islands</country>
+            <iso2>CK</iso2>
+        </item>
+        <item>
+            <country>Costa Rica</country>
+            <iso2>CR</iso2>
+        </item>
+        <item>
+            <country>Croatia</country>
+            <iso2>HR</iso2>
+        </item>
+        <item>
+            <country>Cuba</country>
+            <iso2>CU</iso2>
+        </item>
+        <item>
+            <country>Curacao</country>
+            <iso2>CW</iso2>
+        </item>
+        <item>
+            <country>Cyprus</country>
+            <iso2>CY</iso2>
+        </item>
+        <item>
+            <country>Czech Republic</country>
+            <iso2>CZ</iso2>
+        </item>
+        <item>
+            <country>Democratic Republic of the Congo</country>
+            <iso2>CD</iso2>
+        </item>
+        <item>
+            <country>Denmark</country>
+            <iso2>DK</iso2>
+        </item>
+        <item>
+            <country>Djibouti</country>
+            <iso2>DJ</iso2>
+        </item>
+        <item>
+            <country>Dominica</country>
+            <iso2>DM</iso2>
+        </item>
+        <item>
+            <country>Dominican Republic</country>
+            <iso2>DO</iso2>
+        </item>
+        <item>
+            <country>East Timor</country>
+            <iso2>TL</iso2>
+        </item>
+        <item>
+            <country>Ecuador</country>
+            <iso2>EC</iso2>
+        </item>
+        <item>
+            <country>Egypt</country>
+            <iso2>EG</iso2>
+        </item>
+        <item>
+            <country>El Salvador</country>
+            <iso2>SV</iso2>
+        </item>
+        <item>
+            <country>Equatorial Guinea</country>
+            <iso2>GQ</iso2>
+        </item>
+        <item>
+            <country>Eritrea</country>
+            <iso2>ER</iso2>
+        </item>
+        <item>
+            <country>Estonia</country>
+            <iso2>EE</iso2>
+        </item>
+        <item>
+            <country>Ethiopia</country>
+            <iso2>ET</iso2>
+        </item>
+        <item>
+            <country>Falkland Islands</country>
+            <iso2>FK</iso2>
+        </item>
+        <item>
+            <country>Faroe Islands</country>
+            <iso2>FO</iso2>
+        </item>
+        <item>
+            <country>Fiji</country>
+            <iso2>FJ</iso2>
+        </item>
+        <item>
+            <country>Finland</country>
+            <iso2>FI</iso2>
+        </item>
+        <item>
+            <country>France</country>
+            <iso2>FR</iso2>
+        </item>
+        <item>
+            <country>French Polynesia</country>
+            <iso2>PF</iso2>
+        </item>
+        <item>
+            <country>Gabon</country>
+            <iso2>GA</iso2>
+        </item>
+        <item>
+            <country>Gambia</country>
+            <iso2>GM</iso2>
+        </item>
+        <item>
+            <country>Georgia</country>
+            <iso2>GE</iso2>
+        </item>
+        <item>
+            <country>Germany</country>
+            <iso2>DE</iso2>
+        </item>
+        <item>
+            <country>Ghana</country>
+            <iso2>GH</iso2>
+        </item>
+        <item>
+            <country>Gibraltar</country>
+            <iso2>GI</iso2>
+        </item>
+        <item>
+            <country>Greece</country>
+            <iso2>GR</iso2>
+        </item>
+        <item>
+            <country>Greenland</country>
+            <iso2>GL</iso2>
+        </item>
+        <item>
+            <country>Grenada</country>
+            <iso2>GD</iso2>
+        </item>
+        <item>
+            <country>Guam</country>
+            <iso2>GU</iso2>
+        </item>
+        <item>
+            <country>Guatemala</country>
+            <iso2>GT</iso2>
+        </item>
+        <item>
+            <country>Guernsey</country>
+            <iso2>GG</iso2>
+        </item>
+        <item>
+            <country>Guinea</country>
+            <iso2>GN</iso2>
+        </item>
+        <item>
+            <country>Guinea-Bissau</country>
+            <iso2>GW</iso2>
+        </item>
+        <item>
+            <country>Guyana</country>
+            <iso2>GY</iso2>
+        </item>
+        <item>
+            <country>Haiti</country>
+            <iso2>HT</iso2>
+        </item>
+        <item>
+            <country>Honduras</country>
+            <iso2>HN</iso2>
+        </item>
+        <item>
+            <country>Hong Kong</country>
+            <iso2>HK</iso2>
+        </item>
+        <item>
+            <country>Hungary</country>
+            <iso2>HU</iso2>
+        </item>
+        <item>
+            <country>Iceland</country>
+            <iso2>IS</iso2>
+        </item>
+        <item>
+            <country>India</country>
+            <iso2>IN</iso2>
+        </item>
+        <item>
+            <country>Indonesia</country>
+            <iso2>ID</iso2>
+        </item>
+        <item>
+            <country>Iran</country>
+            <iso2>IR</iso2>
+        </item>
+        <item>
+            <country>Iraq</country>
+            <iso2>IQ</iso2>
+        </item>
+        <item>
+            <country>Ireland</country>
+            <iso2>IE</iso2>
+        </item>
+        <item>
+            <country>Isle of Man</country>
+            <iso2>IM</iso2>
+        </item>
+        <item>
+            <country>Israel</country>
+            <iso2>IL</iso2>
+        </item>
+        <item>
+            <country>Italy</country>
+            <iso2>IT</iso2>
+        </item>
+        <item>
+            <country>Ivory Coast</country>
+            <iso2>CI</iso2>
+        </item>
+        <item>
+            <country>Jamaica</country>
+            <iso2>JM</iso2>
+        </item>
+        <item>
+            <country>Japan</country>
+            <iso2>JP</iso2>
+        </item>
+        <item>
+            <country>Jersey</country>
+            <iso2>JE</iso2>
+        </item>
+        <item>
+            <country>Jordan</country>
+            <iso2>JO</iso2>
+        </item>
+        <item>
+            <country>Kazakhstan</country>
+            <iso2>KZ</iso2>
+        </item>
+        <item>
+            <country>Kenya</country>
+            <iso2>KE</iso2>
+        </item>
+        <item>
+            <country>Kiribati</country>
+            <iso2>KI</iso2>
+        </item>
+        <item>
+            <country>Kosovo</country>
+            <iso2>XK</iso2>
+        </item>
+        <item>
+            <country>Kuwait</country>
+            <iso2>KW</iso2>
+        </item>
+        <item>
+            <country>Kyrgyzstan</country>
+            <iso2>KG</iso2>
+        </item>
+        <item>
+            <country>Laos</country>
+            <iso2>LA</iso2>
+        </item>
+        <item>
+            <country>Latvia</country>
+            <iso2>LV</iso2>
+        </item>
+        <item>
+            <country>Lebanon</country>
+            <iso2>LB</iso2>
+        </item>
+        <item>
+            <country>Lesotho</country>
+            <iso2>LS</iso2>
+        </item>
+        <item>
+            <country>Liberia</country>
+            <iso2>LR</iso2>
+        </item>
+        <item>
+            <country>Libya</country>
+            <iso2>LY</iso2>
+        </item>
+        <item>
+            <country>Liechtenstein</country>
+            <iso2>LI</iso2>
+        </item>
+        <item>
+            <country>Lithuania</country>
+            <iso2>LT</iso2>
+        </item>
+        <item>
+            <country>Luxembourg</country>
+            <iso2>LU</iso2>
+        </item>
+        <item>
+            <country>Macao</country>
+            <iso2>MO</iso2>
+        </item>
+        <item>
+            <country>Macedonia</country>
+            <iso2>MK</iso2>
+        </item>
+        <item>
+            <country>Madagascar</country>
+            <iso2>MG</iso2>
+        </item>
+        <item>
+            <country>Malawi</country>
+            <iso2>MW</iso2>
+        </item>
+        <item>
+            <country>Malaysia</country>
+            <iso2>MY</iso2>
+        </item>
+        <item>
+            <country>Maldives</country>
+            <iso2>MV</iso2>
+        </item>
+        <item>
+            <country>Mali</country>
+            <iso2>ML</iso2>
+        </item>
+        <item>
+            <country>Malta</country>
+            <iso2>MT</iso2>
+        </item>
+        <item>
+            <country>Marshall Islands</country>
+            <iso2>MH</iso2>
+        </item>
+        <item>
+            <country>Mauritania</country>
+            <iso2>MR</iso2>
+        </item>
+        <item>
+            <country>Mauritius</country>
+            <iso2>MU</iso2>
+        </item>
+        <item>
+            <country>Mayotte</country>
+            <iso2>YT</iso2>
+        </item>
+        <item>
+            <country>Mexico</country>
+            <iso2>MX</iso2>
+        </item>
+        <item>
+            <country>Micronesia</country>
+            <iso2>FM</iso2>
+        </item>
+        <item>
+            <country>Moldova</country>
+            <iso2>MD</iso2>
+        </item>
+        <item>
+            <country>Monaco</country>
+            <iso2>MC</iso2>
+        </item>
+        <item>
+            <country>Mongolia</country>
+            <iso2>MN</iso2>
+        </item>
+        <item>
+            <country>Montenegro</country>
+            <iso2>ME</iso2>
+        </item>
+        <item>
+            <country>Montserrat</country>
+            <iso2>MS</iso2>
+        </item>
+        <item>
+            <country>Morocco</country>
+            <iso2>MA</iso2>
+        </item>
+        <item>
+            <country>Mozambique</country>
+            <iso2>MZ</iso2>
+        </item>
+        <item>
+            <country>Myanmar</country>
+            <iso2>MM</iso2>
+        </item>
+        <item>
+            <country>Namibia</country>
+            <iso2>NA</iso2>
+        </item>
+        <item>
+            <country>Nauru</country>
+            <iso2>NR</iso2>
+        </item>
+        <item>
+            <country>Nepal</country>
+            <iso2>NP</iso2>
+        </item>
+        <item>
+            <country>Netherlands</country>
+            <iso2>NL</iso2>
+        </item>
+        <item>
+            <country>Netherlands Antilles</country>
+            <iso2>AN</iso2>
+        </item>
+        <item>
+            <country>New Caledonia</country>
+            <iso2>NC</iso2>
+        </item>
+        <item>
+            <country>New Zealand</country>
+            <iso2>NZ</iso2>
+        </item>
+        <item>
+            <country>Nicaragua</country>
+            <iso2>NI</iso2>
+        </item>
+        <item>
+            <country>Niger</country>
+            <iso2>NE</iso2>
+        </item>
+        <item>
+            <country>Nigeria</country>
+            <iso2>NG</iso2>
+        </item>
+        <item>
+            <country>Niue</country>
+            <iso2>NU</iso2>
+        </item>
+        <item>
+            <country>North Korea</country>
+            <iso2>KP</iso2>
+        </item>
+        <item>
+            <country>Northern Mariana Islands</country>
+            <iso2>MP</iso2>
+        </item>
+        <item>
+            <country>Norway</country>
+            <iso2>NO</iso2>
+        </item>
+        <item>
+            <country>Oman</country>
+            <iso2>OM</iso2>
+        </item>
+        <item>
+            <country>Pakistan</country>
+            <iso2>PK</iso2>
+        </item>
+        <item>
+            <country>Palau</country>
+            <iso2>PW</iso2>
+        </item>
+        <item>
+            <country>Palestine</country>
+            <iso2>PS</iso2>
+        </item>
+        <item>
+            <country>Panama</country>
+            <iso2>PA</iso2>
+        </item>
+        <item>
+            <country>Papua New Guinea</country>
+            <iso2>PG</iso2>
+        </item>
+        <item>
+            <country>Paraguay</country>
+            <iso2>PY</iso2>
+        </item>
+        <item>
+            <country>Peru</country>
+            <iso2>PE</iso2>
+        </item>
+        <item>
+            <country>Philippines</country>
+            <iso2>PH</iso2>
+        </item>
+        <item>
+            <country>Pitcairn</country>
+            <iso2>PN</iso2>
+        </item>
+        <item>
+            <country>Poland</country>
+            <iso2>PL</iso2>
+        </item>
+        <item>
+            <country>Portugal</country>
+            <iso2>PT</iso2>
+        </item>
+        <item>
+            <country>Puerto Rico</country>
+            <iso2>PR</iso2>
+        </item>
+        <item>
+            <country>Qatar</country>
+            <iso2>QA</iso2>
+        </item>
+        <item>
+            <country>Republic of the Congo</country>
+            <iso2>CG</iso2>
+        </item>
+        <item>
+            <country>Reunion</country>
+            <iso2>RE</iso2>
+        </item>
+        <item>
+            <country>Romania</country>
+            <iso2>RO</iso2>
+        </item>
+        <item>
+            <country>Russia</country>
+            <iso2>RU</iso2>
+        </item>
+        <item>
+            <country>Rwanda</country>
+            <iso2>RW</iso2>
+        </item>
+        <item>
+            <country>Saint Barthelemy</country>
+            <iso2>BL</iso2>
+        </item>
+        <item>
+            <country>Saint Helena</country>
+            <iso2>SH</iso2>
+        </item>
+        <item>
+            <country>Saint Kitts and Nevis</country>
+            <iso2>KN</iso2>
+        </item>
+        <item>
+            <country>Saint Lucia</country>
+            <iso2>LC</iso2>
+        </item>
+        <item>
+            <country>Saint Martin</country>
+            <iso2>MF</iso2>
+        </item>
+        <item>
+            <country>Saint Pierre and Miquelon</country>
+            <iso2>PM</iso2>
+        </item>
+        <item>
+            <country>Saint Vincent and the Grenadines</country>
+            <iso2>VC</iso2>
+        </item>
+        <item>
+            <country>Samoa</country>
+            <iso2>WS</iso2>
+        </item>
+        <item>
+            <country>San Marino</country>
+            <iso2>SM</iso2>
+        </item>
+        <item>
+            <country>Sao Tome and Principe</country>
+            <iso2>ST</iso2>
+        </item>
+        <item>
+            <country>Saudi Arabia</country>
+            <iso2>SA</iso2>
+        </item>
+        <item>
+            <country>Senegal</country>
+            <iso2>SN</iso2>
+        </item>
+        <item>
+            <country>Serbia</country>
+            <iso2>RS</iso2>
+        </item>
+        <item>
+            <country>Seychelles</country>
+            <iso2>SC</iso2>
+        </item>
+        <item>
+            <country>Sierra Leone</country>
+            <iso2>SL</iso2>
+        </item>
+        <item>
+            <country>Singapore</country>
+            <iso2>SG</iso2>
+        </item>
+        <item>
+            <country>Sint Maarten</country>
+            <iso2>SX</iso2>
+        </item>
+        <item>
+            <country>Slovakia</country>
+            <iso2>SK</iso2>
+        </item>
+        <item>
+            <country>Slovenia</country>
+            <iso2>SI</iso2>
+        </item>
+        <item>
+            <country>Solomon Islands</country>
+            <iso2>SB</iso2>
+        </item>
+        <item>
+            <country>Somalia</country>
+            <iso2>SO</iso2>
+        </item>
+        <item>
+            <country>South Africa</country>
+            <iso2>ZA</iso2>
+        </item>
+        <item>
+            <country>South Korea</country>
+            <iso2>KR</iso2>
+        </item>
+        <item>
+            <country>South Sudan</country>
+            <iso2>SS</iso2>
+        </item>
+        <item>
+            <country>Spain</country>
+            <iso2>ES</iso2>
+        </item>
+        <item>
+            <country>Sri Lanka</country>
+            <iso2>LK</iso2>
+        </item>
+        <item>
+            <country>Sudan</country>
+            <iso2>SD</iso2>
+        </item>
+        <item>
+            <country>Suriname</country>
+            <iso2>SR</iso2>
+        </item>
+        <item>
+            <country>Svalbard and Jan Mayen</country>
+            <iso2>SJ</iso2>
+        </item>
+        <item>
+            <country>Swaziland</country>
+            <iso2>SZ</iso2>
+        </item>
+        <item>
+            <country>Sweden</country>
+            <iso2>SE</iso2>
+        </item>
+        <item>
+            <country>Switzerland</country>
+            <iso2>CH</iso2>
+        </item>
+        <item>
+            <country>Syria</country>
+            <iso2>SY</iso2>
+        </item>
+        <item>
+            <country>Taiwan</country>
+            <iso2>TW</iso2>
+        </item>
+        <item>
+            <country>Tajikistan</country>
+            <iso2>TJ</iso2>
+        </item>
+        <item>
+            <country>Tanzania</country>
+            <iso2>TZ</iso2>
+        </item>
+        <item>
+            <country>Thailand</country>
+            <iso2>TH</iso2>
+        </item>
+        <item>
+            <country>Togo</country>
+            <iso2>TG</iso2>
+        </item>
+        <item>
+            <country>Tokelau</country>
+            <iso2>TK</iso2>
+        </item>
+        <item>
+            <country>Tonga</country>
+            <iso2>TO</iso2>
+        </item>
+        <item>
+            <country>Trinidad and Tobago</country>
+            <iso2>TT</iso2>
+        </item>
+        <item>
+            <country>Tunisia</country>
+            <iso2>TN</iso2>
+        </item>
+        <item>
+            <country>Turkey</country>
+            <iso2>TR</iso2>
+        </item>
+        <item>
+            <country>Turkmenistan</country>
+            <iso2>TM</iso2>
+        </item>
+        <item>
+            <country>Turks and Caicos Islands</country>
+            <iso2>TC</iso2>
+        </item>
+        <item>
+            <country>Tuvalu</country>
+            <iso2>TV</iso2>
+        </item>
+        <item>
+            <country>U.S. Virgin Islands</country>
+            <iso2>VI</iso2>
+        </item>
+        <item>
+            <country>Uganda</country>
+            <iso2>UG</iso2>
+        </item>
+        <item>
+            <country>Ukraine</country>
+            <iso2>UA</iso2>
+        </item>
+        <item>
+            <country>United Arab Emirates</country>
+            <iso2>AE</iso2>
+        </item>
+        <item>
+            <country>United Kingdom</country>
+            <iso2>GB</iso2>
+        </item>
+        <item>
+            <country>United States</country>
+            <iso2>US</iso2>
+        </item>
+        <item>
+            <country>Uruguay</country>
+            <iso2>UY</iso2>
+        </item>
+        <item>
+            <country>Uzbekistan</country>
+            <iso2>UZ</iso2>
+        </item>
+        <item>
+            <country>Vanuatu</country>
+            <iso2>VU</iso2>
+        </item>
+        <item>
+            <country>Vatican</country>
+            <iso2>VA</iso2>
+        </item>
+        <item>
+            <country>Venezuela</country>
+            <iso2>VE</iso2>
+        </item>
+        <item>
+            <country>Vietnam</country>
+            <iso2>VN</iso2>
+        </item>
+        <item>
+            <country>Wallis and Futuna</country>
+            <iso2>WF</iso2>
+        </item>
+        <item>
+            <country>Western Sahara</country>
+            <iso2>EH</iso2>
+        </item>
+        <item>
+            <country>Yemen</country>
+            <iso2>YE</iso2>
+        </item>
+        <item>
+            <country>Zambia</country>
+            <iso2>ZM</iso2>
+        </item>
+        <item>
+            <country>Zimbabwe</country>
+            <iso2>ZW</iso2>
+        </item>
+    </string-array>
+</resources>

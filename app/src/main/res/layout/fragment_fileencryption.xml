@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="15dp"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:animateLayoutChanges="true"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textStyle="italic|bold"
+            android:text="@string/file_encryption"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/encryptionModeMenu"
+            app:boxCornerRadiusBottomEnd="10dp"
+            app:boxCornerRadiusBottomStart="10dp"
+            app:boxCornerRadiusTopEnd="10dp"
+            app:boxCornerRadiusTopStart="10dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="200dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:hint="@string/encryption_mode"
+            >
+
+            <AutoCompleteTextView
+                android:id="@+id/encryptionModeTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/chooseFileButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:text="@string/choose_a_file"/>
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/filePathTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingVertical="10dp"
+                android:maxLines="3"
+                />
+
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/password_note"
+            android:textSize="16sp"
+            android:paddingBottom="5dp"/>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/filePasswordTIL"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            app:boxCornerRadiusBottomEnd="40dp"
+            app:boxCornerRadiusBottomStart="40dp"
+            app:boxCornerRadiusTopEnd="40dp"
+            app:boxCornerRadiusTopStart="40dp"
+            android:hint="@string/password"
+            app:helperText="@string/min_char_6"
+            app:endIconMode="password_toggle"
+            android:animateLayoutChanges="true"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/filePasswordTIET"
+                android:layout_width="match_parent"
+                android:inputType="textPassword|textNoSuggestions"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/fileConfirmPasswordTIL"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/confirm_password"
+            app:boxCornerRadiusBottomEnd="40dp"
+            app:boxCornerRadiusBottomStart="40dp"
+            app:boxCornerRadiusTopEnd="40dp"
+            app:boxCornerRadiusTopStart="40dp"
+            android:layout_marginHorizontal="20dp"
+            app:errorEnabled="true"
+            app:endIconMode="password_toggle">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/fileConfirmPasswordTIET"
+                android:inputType="textPassword|textNoSuggestions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             android:baselineAligned="false"
+             android:animateLayoutChanges="true"
+             android:gravity="start"
+             >
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="10dp"
+                 android:layout_gravity="bottom|start"
+                 android:text="@string/save_directory"
+                 android:textSize="16sp"/>
+
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:animateLayoutChanges="true"
+                 android:gravity="center">
+
+                 <com.wang.avi.AVLoadingIndicatorView
+                     android:id="@+id/encryptionLoading"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:visibility="invisible"
+                     app:indicatorColor="@color/crypto_yellow"
+                     app:indicatorName="BallRotateIndicator" />
+             </LinearLayout>
+
+         </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/chooseDirectoryButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="@string/directory"
+                />
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/chosenDirectoryTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="4dp"
+                    android:textSize="14sp"
+                    android:text="@string/chosen_directory"
+                    />
+
+            </ScrollView>
+
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/encryptionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/encrypt"
+            android:paddingVertical="8dp"
+            android:paddingHorizontal="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:enabled="false"
+            app:cornerRadius="10dp"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+</ScrollView>
